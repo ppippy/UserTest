@@ -1,0 +1,1 @@
+function toJSDate(c){var b=c.split(" ");var a=b[0].split("-");var c=b[1].split(":");return new Date(a[0],a[1],a[2],c[0],c[1],c[2],0)};
